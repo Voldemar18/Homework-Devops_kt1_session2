@@ -1,1 +1,23 @@
-"# Installation Guide ## Prerequisites - Git installed on your system - Web browser (Chrome, Firefox, etc.) - Text editor (VS Code, Sublime Text, etc.) ## Quick Start ### 1. Clone the Repository \`\`\`bash git clone https://github.com/Voldemar18/Homework-Devops_kt1_session2.git cd Homework-Devops_kt1_session2 \`\`\` ### 2. Open the Project \`\`\`bash # Open in default browser start index.html  # Windows # or open index.html   # Mac # or simply double-click index.html in file explorer \`\`\` ### 3. Run the Application Since this is a static HTML project, you can simply open \`index.html\` in any web browser. ## Development Setup ### For Contributors 1. Fork the repository on GitHub 2. Clone your fork locally 3. Create a feature branch: \`git checkout -b feature/your-feature\` 4. Make your changes and commit 5. Push to your fork and create a Pull Request ## Troubleshooting - If you see CORS errors, run a local server: \`\`\`bash python -m http.server 8000 \`\`\` Then visit http://localhost:8000 ## Dependencies No external dependencies required. Pure HTML/CSS/JS." 
+# Installation Guide
+
+## Prerequisites
+- Git installed on your system
+- Web browser (Chrome, Firefox, etc.)
+- Text editor (VS Code, Sublime Text, etc.)
+
+## Quick Start
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Voldemar18/Homework-Devops_kt1_session2.git
+cd Homework-Devops_kt1_session2
+
+# Open in default browser
+start index.html  # Windows
+# or
+open index.html   # Mac
+# or simply double-click index.html in file explorer
+```bash
+
+###2. Run the Application
+Since this is a static HTML project, you can simply open index.html in any web browser.
