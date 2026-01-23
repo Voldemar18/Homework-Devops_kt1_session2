@@ -18,6 +18,8 @@ This is an educational project demonstrating professional Git workflow, branchin
 **Vladimir**  
 GitHub: [Voldemar18](https://github.com/Voldemar18)
 
+**Diana**
+GitHub: [dinya1234](https://github.com/dinya1234)
 ## Documentation
 
 - [**Changelog**](changelog.md) - History of all changes
