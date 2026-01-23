@@ -1,0 +1,8 @@
+"# HTML Validation Report" 
+"## Fixed Issues" 
+"1. Added lang='en' to html tag" 
+"2. Added type='button' to button elements" 
+"3. Added meta description tag" 
+"4. Improved accessibility attributes" 
+"" 
+"Date: $(date)" 
