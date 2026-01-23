@@ -1,14 +1,119 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>DevOps Homework Project</title> 
-    <link rel="stylesheet" href="styles.css"> 
-</head> 
-<body> 
-    <h1>DevOps Project with HTML Validation Fixes</h1> 
-    <p>This version includes proper HTML validation improvements.</p> 
-    <button type="button">Test Button</button> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevOps educational project demonstrating Git workflow">
+    <meta name="author" content="Vladimir">
+    <title>DevOps Homework Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header role="banner">
+        <h1><i class="fas fa-code-branch" aria-hidden="true"></i> DevOps Homework - Session 2</h1>
+        <p>Professional Git workflow demonstration project</p>
+        <div class="version">Version: 1.2.0</div>
+    </header>
+
+    <main role="main">
+        <section id="overview">
+            <h2><i class="fas fa-rocket" aria-hidden="true"></i> Project Overview</h2>
+            <p>This is an educational project demonstrating professional Git workflow, branching strategies, and GitHub project management.</p>
+            <div class="stats">
+                <span class="stat"><i class="fas fa-code"></i> JavaScript Enabled</span>
+                <span class="stat"><i class="fas fa-palette"></i> Dark Mode Ready</span>
+                <span class="stat"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2><i class="fas fa-star" aria-hidden="true"></i> Features</h2>
+            <ul>
+                <li>Git branching (Gitflow methodology)</li>
+                <li>Semantic versioning (currently v1.2.0)</li>
+                <li>GitHub Issues and Projects</li>
+                <li>Professional documentation</li>
+                <li>Responsive web design</li>
+                <li><strong>JavaScript interactivity</strong> (new!)</li>
+                <li>Dark/Light mode toggle</li>
+            </ul>
+        </section>
+
+        <section id="documentation">
+            <h2><i class="fas fa-book" aria-hidden="true"></i> Documentation</h2>
+            <p>Complete project documentation is available:</p>
+            <ul>
+                <li><a href="changelog.md"><i class="fas fa-history" aria-hidden="true"></i> Changelog</a> - History of all changes</li>
+                <li><a href="install.md"><i class="fas fa-download" aria-hidden="true"></i> Installation Guide</a> - How to install and run</li>
+                <li><a href="git-commands.md"><i class="fas fa-terminal" aria-hidden="true"></i> Git Commands</a> - Useful Git commands cheatsheet</li>
+            </ul>
+        </section>
+
+        <section id="demo">
+            <h2><i class="fas fa-play-circle" aria-hidden="true"></i> Live Demo</h2>
+            <p>Click the button below to simulate an action:</p>
+            <button class="button" id="demoButton" type="button" aria-label="Show Git workflow message">
+                <i class="fas fa-magic" aria-hidden="true"></i> Click Me!
+            </button>
+            <p id="demoMessage" role="status" aria-live="polite"></p>
+            <p class="counter">Clicks: <span id="clickCounter">0</span></p>
+        </section>
+
+        <section id="theme-control">
+            <h2><i class="fas fa-palette" aria-hidden="true"></i> Theme Control</h2>
+            <p>Toggle between light and dark mode:</p>
+            <button class="button button-secondary" id="themeToggle">
+                <i class="fas fa-moon"></i> Toggle Dark Mode
+            </button>
+            <div class="theme-info">
+                <p>Current theme: <span id="currentTheme">Light</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>Developed by <strong>Vladimir</strong> (GitHub: <a href="https://github.com/Voldemar18">Voldemar18</a>)</p>
+        <p><i class="fas fa-graduation-cap" aria-hidden="true"></i> Created for educational purposes as part of DevOps course</p>
+        <p class="timestamp">Last updated: <time id="currentDate">2024-01-23</time></p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="script.js" defer></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Display current date
+            const currentDateElement = document.getElementById('currentDate');
+            if (currentDateElement) {
+                const now = new Date();
+                currentDateElement.textContent = now.toISOString().split('T')[0];
+                currentDateElement.dateTime = now.toISOString();
+            }
+            
+            // Basic demo button functionality
+            const demoButton = document.getElementById('demoButton');
+            const demoMessage = document.getElementById('demoMessage');
+            
+            if (demoButton && demoMessage) {
+                demoButton.addEventListener('click', function() {
+                    const messages = [
+                        'Git workflow activated!',
+                        'Feature branch created!',
+                        'Pull request ready!',
+                        'Code reviewed successfully!',
+                        'Merged to master!'
+                    ];
+                    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+                    demoMessage.textContent = randomMessage;
+                    
+                    this.style.background = '#10b981';
+                    setTimeout(() => {
+                        this.style.background = '';
+                    }, 500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
