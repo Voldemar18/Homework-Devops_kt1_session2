@@ -1,0 +1,10 @@
+echo      _____  _                       > images\logo.txt
+echo     |  __ \| |                      >> images\logo.txt
+echo     | |__) | | __ _ _   _  ___ _ __ >> images\logo.txt
+echo     |  ___/| |/ _` | | | |/ _ \ '__| >> images\logo.txt
+echo     | |    | | (_| | |_| |  __/ |   >> images\logo.txt
+echo     |_|    |_|\__,_|\__, |\___|_|   >> images\logo.txt
+echo                      __/ |          >> images\logo.txt
+echo                     |___/           >> images\logo.txt
+echo.                                   >> images\logo.txt
+echo     Project Name v1.0.0            >> images\logo.txt

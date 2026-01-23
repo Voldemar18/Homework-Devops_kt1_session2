@@ -39,6 +39,9 @@ GitHub: [dinya1234](https://github.com/dinya1234)
 
 ---
 
+## Логотип проекта
+https://doc/logo.txt
+
 #*Created for educational purposes as part of DevOps course.*
 <img width="882" height="832" alt="image" src="https://github.com/user-attachments/assets/5108f0e5-77b5-4d71-aea1-0c68980673e3" />
 
