@@ -36,5 +36,8 @@ GitHub: [Voldemar18](https://github.com/Voldemar18)
 
 ---
 
-*Created for educational purposes as part of DevOps course.*
+#*Created for educational purposes as part of DevOps course.*
 <img width="882" height="832" alt="image" src="https://github.com/user-attachments/assets/5108f0e5-77b5-4d71-aea1-0c68980673e3" />
+
+#Network
+<img width="708" height="207" alt="image" src="https://github.com/user-attachments/assets/b512e603-4727-4f49-9141-4b7158259215" />
