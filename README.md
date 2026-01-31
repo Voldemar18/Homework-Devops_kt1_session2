@@ -18,7 +18,7 @@ This is an educational project demonstrating professional Git workflow, branchin
 **Pavlitsky Vladimir**  
 GitHub: [Voldemar18](https://github.com/Voldemar18)
 
-**Volokhova Diana**  
+**Volohova Diana**  
 GitHub: [dinya1234](https://github.com/dinya1234)
 
 ## Documentation
